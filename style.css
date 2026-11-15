@@ -1,0 +1,32 @@
+/* css/style.css - Clinique Kpondéhou */
+
+* { box-sizing: border-box; }
+body { font-family: "Segoe UI", Arial, sans-serif; background:#f4f7fb; color:#222; margin:0; padding:0; }
+.site-header { background:#005792; color:#fff; padding:14px; text-align:center; }
+.logo { width:110px; height:auto; display:block; margin:6px auto; border-radius:6px; }
+.clinic-info h1 { margin:6px 0; font-size:1.3rem; }
+.container { max-width:1000px; margin:20px auto; padding:16px; }
+.card { background:#fff; border-radius:10px; padding:14px; margin-bottom:16px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+.hidden { display:none !important; }
+h2, h3, h4 { margin:8px 0; color:#023e8a; }
+.form-inline { display:flex; gap:8px; align-items:center; margin-bottom:8px; flex-wrap:wrap; }
+input[type="text"], input[type="password"], input[type="number"], input[type="date"], select { padding:8px; border-radius:6px; border:1px solid #d1dbe8; width:100%; min-width:160px; }
+.btn { background:#005792; color:#fff; border:none; padding:8px 12px; border-radius:8px; cursor:pointer; font-weight:700; }
+.btn:hover { background:#013a63; }
+.danger { background:#d62828; }
+.danger:hover { background:#a31919; }
+.table-wrapper { overflow:auto; }
+table { width:100%; border-collapse:collapse; margin-top:8px; }
+th, td { border:1px solid #e6eef5; padding:8px; text-align:center; }
+th { background:#eaf3fb; color:#023e8a; font-weight:700; }
+.row { display:flex; gap:8px; align-items:center; margin-top:8px; }
+.right { justify-content:flex-end; display:flex; gap:8px; align-items:center; }
+.service-buttons { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:8px; }
+.service-buttons button { background:#0b7285; color:white; border:none; padding:6px 8px; border-radius:6px; cursor:pointer; }
+.box { background:#f7fbff; border:1px solid #e6f0fb; padding:10px; border-radius:8px; margin-top:8px; }
+.error { color:#b00020; margin-top:8px; text-align:center; }
+.footer { text-align:center; color:#666; padding:10px 0; margin-top:20px; }
+@media (max-width:720px) {
+  .form-inline { flex-direction:column; align-items:stretch; }
+  .right { flex-direction:column; align-items:flex-end; }
+}
